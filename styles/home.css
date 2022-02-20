@@ -25,7 +25,7 @@ p, h1{
 #leftheader p {
     color: rgb(216, 187, 20);
 }
-#middleheader p {
+#middleheader p { 
     color:darkorchid;
 }
 #rightheader p {
