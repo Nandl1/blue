@@ -3,7 +3,7 @@ body {
 }
 #header {
     text-align: center;
-    color: rgba(196, 131, 123, 0.842);
+    color: indianred;
     font-size: 30px;
 }
 @font-face {
