@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+#header {
+    text-align: center;
+    color: rgba(196, 131, 123, 0.842);
+    font-size: 30px;
+}
+@font-face {
+    font-family: 'Albumme Smooth';
+    src: url(../resources/AlbummeSmooth.ttf);
+}
+p, h1{
+    font-family: 'Albumme Smooth', monospace;
+    margin: 0;
+}
+#subHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#leftheader {
+    border: 5px solid rgb(173, 39, 151);
+}
+#leftheader p {
+    color: rgb(216, 187, 20);
+}
+#middleheader p {
+    color:darkorchid;
+}
+#rightheader p {
+    color: cornflowerblue;
+}
+#middleheader { 
+    border: 5px solid rgb(219, 156, 18); 
+}
+#rightheader {
+    border: 5px solid rgb(39, 177, 73);
+}
+.section {
+    flex-grow: 1;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section p {
+    font-size: 30px;
+    
+}
